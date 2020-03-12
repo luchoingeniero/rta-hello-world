@@ -13,7 +13,6 @@ function sendMessage(message){
 }
 
 function  readMessage(message){
-    console.log("Recinbi"+message);
     $(".list-group").append(messageTemplate(message));
     $("main").animate({ scrollTop: $('main').prop("scrollHeight")}, 300);
 }

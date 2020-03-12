@@ -71,3 +71,8 @@ header{
 	margin-top: -10px;
 	margin-left: -20px;
 }
+
+#send{
+    margin-top: -38px;
+    float: right;
+}
