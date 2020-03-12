@@ -40,3 +40,35 @@ _Si todo salio bien la consola te arroja la siguiente salida_
 ```
 Esperando Clientes on ...
 ```
+
+## Dependencias Client
+_Al igual que el server este utiliza la libreria **socket.io** pero en el cliente no la vamos a instalar como depencia, si no que vamos a agregarla a nuestra pagina html como un script mas , para eso  vamos al siguiente enlace
+https://socket.io/blog/ y seleccionamos la ultima version estable en CDN (red de distribucion de contenidos), veremos algo como esto_
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+
+```
+_El cual vamos a agregar en nuestro index.html antes del cierre de la etiqueta body, para este ejemplo tambien se agregaron los scripts de jquery y bootstrap los cuales tambien se agregaron por cdn desde las paginas oficiales._
+
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World</title>
+</head>
+<body>
+   ......
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+    <script src="./chat.js"></script>
+
+</body>
+</html>
+```
+
+
