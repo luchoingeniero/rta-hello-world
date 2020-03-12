@@ -77,4 +77,5 @@ _Para este ejemplo se agregaron los scripts de jquery y bootstrap los cuales tam
 ## Run Server 
 _Para ejecutar el cliente solo elegimos nuestro navegador de confianza y abrimos el archivo index.html_
 ![Screenshot](capture.png)
+![Screenshot](capture2.png)
 
