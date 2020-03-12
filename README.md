@@ -13,6 +13,7 @@ _Este respositorio tiene 2 subdirectorios, uno es el directorio **server** el cu
 
 ## Dependencias Server 
 _Como vemos a continuacion en el package.json este solo tiene una dependencia, la cual es socket.io_
+_Si quieres saber un poco mas sobre  **socket.io** ves al [Sitio Oficial](https://socket.io/ "Socket IO") o en [npm socket.io](https://www.npmjs.com/package/socket.io "Socket IO")_
 ```
 --package.json
 {
