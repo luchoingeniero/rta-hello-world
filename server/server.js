@@ -7,7 +7,7 @@ var events = {
   newConnection: 'connection', 
   offConnnection: 'disconnect', 
   newMessage: 'new_message',
-  emitMessage: 'emit_message'
+  emitMessage: 'read_message'
 } 
 
 
