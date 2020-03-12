@@ -9,4 +9,16 @@ _Estas nos permiten transmitir informacion casi de inmediato entre aplicaciones,
  4. _**Conexion a Internet**, no esta demas , pues lo necesitamos para instalar nuestras dependencias_
 
 ## Hola Mundo
-_Este respositorio tiene 2 subdirectorios **server** este contiene el archivo server.js que posee la logica para recibir y emitir mensajes de todos los clientes conectados al **socket** Ahora crearemos una tarea(**task**) llamada **compilar**(puede llamarse como quieras) en la cual ejecutaremos nuestro hola mundo con el **println**_
+_Este respositorio tiene 2 subdirectorios, uno es el directorio **server** el cual contiene el archivo **server.js** que posee la logica para recibir y emitir mensajes de todos los clientes conectados al **socket** por otra parte tenemos el directorio **client** el cual tiene 3 archivos **index.html**(maquetacion del chat), **style.css**(capa de estilos para que nuestro chat se vea bien ) y **chat.js** el cual contiene la logica para enviar y recibir mensajes desde el server_
+
+## Dependencias Server 
+_Como vemos a continuacion en el package.json este solo tiene una dependencia, la cual es socket.io_
+```
+--package.json
+{
+  ...
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
+```
