@@ -31,3 +31,11 @@ si no tenemos la dependencia socket.io en el package.json ejecutamos
 ```
 $ npm install socket.io
 ```
+_Para ejecutar nuestro server ejecutamos con el comando node server.js_
+```
+$ node server.js
+```
+_Si todo salio bien la consola te arroja la siguiente salida_
+```
+Esperando Clientes on ...
+```
