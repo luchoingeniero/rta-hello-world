@@ -23,3 +23,9 @@ _Si quieres saber un poco mas sobre  **socket.io** ves al [Sitio Oficial](https:
   }
 }
 ```
+_Como nuestro package ya tiene este paquete en las depencias solo nos ubicamos en nuestro directorio server abrimos una consola, y ejecutamos npm install_
+```
+$ npm install
+-- si no tenemos la dependencia en el package.json ejecutamos
+$ npm install socket.io
+```
